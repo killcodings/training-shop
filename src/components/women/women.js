@@ -60,6 +60,7 @@ const cards = [
   },
 ];
 const Women = function (props) {
+  console.log(cards[0].href);
   return (
     <div
       className="container products-page"
