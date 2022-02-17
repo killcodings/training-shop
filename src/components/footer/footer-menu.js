@@ -1,18 +1,22 @@
 import React from "react";
 import { Link } from "react-router-dom";
-
 const links1 = [
-  { href: "/test", text: "About Us" },
-  { href: "#", text: "Women" },
-  { href: "#", text: "Men" },
-  { href: "#", text: "Beauty" },
+  { href: "men", text: "About Us" },
+  { href: "women", text: "Women" },
+  { href: "accesories", text: "Men" },
+  { href: "be", text: "Beauty" },
 ];
-
 function Links(props) {
   const links = props.links;
   const listItems = links.map((link, index) => (
     <li key={index}>
-      <Link to={link.href}>{link.text}</Link>
+      <Link
+        to={`/${link.href}`}
+        className="menu-item"
+        data-test-id={`footer-nav-link-${link.href}`}
+      >
+        {link.text}
+      </Link>
     </li>
   ));
   return <ul className="main-menu">{listItems}</ul>;

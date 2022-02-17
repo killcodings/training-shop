@@ -10,7 +10,6 @@ const Block2Component = function (props) {
       data-test-id={`clothes-${props.name}`}
     >
       <CloseNavComponent name={props.name} />
-
       <CardsWrap name={props.name} products={props.products} />
       <a href="#block2" className="see-all-card">
         SEE ALL
