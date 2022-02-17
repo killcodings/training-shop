@@ -8,7 +8,7 @@ const Block2Component = function (props) {
     <div className="container block2">
       <CloseNavComponent name={props.name} />
       <CardsWrap products={props.products} />
-      <a href="javascript:void(0)" className="see-all-card">
+      <a href="#block2" className="see-all-card">
         SEE ALL
       </a>
     </div>

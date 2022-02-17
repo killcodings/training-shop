@@ -1,5 +1,4 @@
 import React from "react";
-// import { Link } from "react-router-dom";
 
 const links = [
   { href: "/test", text: "About Us" },
