@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const links = [
   { href: "/test", text: "About Us" },
@@ -14,7 +15,7 @@ function Links(props) {
   const links = props.links;
   const listItems = links.map((link, index) => (
     <li key={index}>
-      <a href={link.href}>{link.text}</a>
+      <Link to={link.href}>{link.text}</Link>
     </li>
   ));
   return <ul className="main-menu">{listItems}</ul>;

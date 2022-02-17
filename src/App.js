@@ -4,6 +4,7 @@ import MainPage from "./components/mainPage/mainPage";
 import { HashRouter, Routes, Route } from "react-router-dom";
 import Men from "./components/men/men";
 import Women from "./components/women/women";
+import Footer from "./components/footer/footer";
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
           <Route path="/men" element={<Men />} />
           <Route path="/women" element={<Women />} />
         </Routes>
+        <Footer />
       </HashRouter>
     </div>
   );

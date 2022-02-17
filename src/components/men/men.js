@@ -63,7 +63,7 @@ const cards = [
 const Men = function (props) {
   return (
     <div className="container ">
-      <Block2Component name="WOMEN’S" products={cards} />
+      <Block2Component name="WEN" products={cards} />
     </div>
   );
 };

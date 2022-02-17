@@ -4,7 +4,6 @@ import Block2Component from "../block2/Block2Component";
 import NewsComponent from "../block3/NewsComponent";
 import Block4 from "../block4/block4";
 import Block5Component from "../block5/block5";
-import Footer from "../footer/footer";
 
 const advantageItem = [
   {
@@ -171,7 +170,6 @@ function MainPage() {
       </div>
       <Block4 />
       <Block5Component />
-      <Footer />
     </div>
   );
 }
