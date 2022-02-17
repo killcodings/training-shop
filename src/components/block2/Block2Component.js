@@ -11,7 +11,7 @@ const Block2Component = function (props) {
     >
       <CloseNavComponent name={props.name} />
 
-      <CardsWrap products={props.products} />
+      <CardsWrap name={props.name} products={props.products} />
       <a href="#block2" className="see-all-card">
         SEE ALL
       </a>

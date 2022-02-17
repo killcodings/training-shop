@@ -20,7 +20,12 @@ function Rating(props) {
 function Cards(props) {
   const cards = props.cards;
   const listCards = cards.map((card, index) => (
-    <Link key={index} to={`${card.href}/${index}`} className="card">
+    <Link
+      key={index}
+      to={`${card.href}/${index}`}
+      className="card"
+      data-test-id={`clothes-card-${props.name}`}
+    >
       <img src={card.imgUrl} alt="img" />
       <h3 className="title">{card.h3}</h3>
       <div className="card-bottom">
@@ -35,6 +40,6 @@ function Cards(props) {
 }
 
 const CardsWrap = function (props) {
-  return <Cards cards={props.products} />;
+  return <Cards name={props.name} cards={props.products} />;
 };
 export default CardsWrap;
