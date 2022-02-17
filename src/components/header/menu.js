@@ -2,9 +2,9 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const links = [
-  { href: "/test", text: "About Us" },
-  { href: "/women", text: "Women" },
-  { href: "/men", text: "Men" },
+  { href: "test", text: "About Us" },
+  { href: "women", text: "Women" },
+  { href: "men", text: "Men" },
   { href: "#", text: "Beauty" },
   { href: "#", text: "Accessories" },
   { href: "#", text: "Blog" },

@@ -162,8 +162,8 @@ function MainPage() {
     <div className="site">
       <Block1Component />
       <Advantages advantageItem={advantageItem} />
-      <Block2Component name="WOMEN’S" products={cards} />
-      <Block2Component name="MEN’S" products={cards2} />
+      <Block2Component name="women" products={cards} />
+      <Block2Component name="men" products={cards2} />
       <div className="container block3">
         <NewsComponent items={items} />
         <NewsComponent items={items2} />

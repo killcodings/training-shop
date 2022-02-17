@@ -10,6 +10,7 @@ const Block2Component = function (props) {
       data-test-id={`footer-nav-link-${props.name}`}
     >
       <CloseNavComponent name={props.name} />
+
       <CardsWrap products={props.products} />
       <a href="#block2" className="see-all-card">
         SEE ALL
