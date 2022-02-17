@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import Star from "./star.png";
 import StarNull from "./starNull.png";
 import "./style.css";
@@ -19,7 +20,7 @@ function Rating(props) {
 function Cards(props) {
   const cards = props.cards;
   const listCards = cards.map((card, index) => (
-    <a key={index} href={card.href} className="card">
+    <Link key={index} to={`/${card.href}/${index}`} className="card">
       <img src={card.imgUrl} alt="img" />
       <h3 className="title">{card.h3}</h3>
       <div className="card-bottom">
@@ -28,7 +29,7 @@ function Cards(props) {
         </div>
         <Rating reting={card.rating} />
       </div>
-    </a>
+    </Link>
   ));
   return <div className="wrap-cards">{listCards}</div>;
 }

@@ -10,7 +10,7 @@ import Logo from "./CleverShop.svg";
 
 const Header = function () {
   return (
-    <header className="header">
+    <header className="header" data-test-id="header">
       <div className="topLine ">
         <div className="container ">
           <div className="row">
@@ -22,7 +22,11 @@ const Header = function () {
       <div className="container bottomLine">
         <div className="row">
           <div className="logoWrap">
-            <Link to="/">
+            <Link
+              to="/"
+              className="header-nav-logo"
+              data-test-id="header-logo-link"
+            >
               <img src={Logo} alt="img" />
             </Link>
           </div>

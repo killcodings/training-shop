@@ -9,7 +9,7 @@ import FooterMenu from "../footer/footer-menu";
 
 const Footer = function (props) {
   return (
-    <footer className="footer">
+    <footer className="footer" data-test-id="footer">
       <TopFooter />
       <div className="container">
         <div className="wrap-footer">

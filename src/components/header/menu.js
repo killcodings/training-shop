@@ -14,15 +14,22 @@ const links = [
 function Links(props) {
   const links = props.links;
   const listItems = links.map((link, index) => (
-    <li key={index}>
-      <Link to={link.href}>{link.text}</Link>
+    <li>
+      <Link
+        key={index}
+        to={`${link.href}`}
+        className="menu-item"
+        data-test-id={`menu-link-${link.href}`}
+      >
+        {link.text}
+      </Link>
     </li>
   ));
   return <ul className="main-menu">{listItems}</ul>;
 }
 const Menu = function () {
   return (
-    <div>
+    <div className="menu" data-test-id="menu">
       <Links links={links} />
     </div>
   );

@@ -8,7 +8,7 @@ import Footer from "./components/footer/footer";
 
 function App() {
   return (
-    <div className="site">
+    <div className="site app" data-test-id="app">
       <HashRouter>
         <Header />
         <Routes>
