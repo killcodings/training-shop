@@ -1,0 +1,69 @@
+import React from "react";
+
+import Block2Component from "../block2/Block2Component";
+const cards = [
+  {
+    href: "#",
+    imgUrl: require("../block2/Rectangle1.jpg"),
+    h3: "Women's tracksuit Q109",
+    price: "$ 30.00",
+    rating: "5",
+  },
+  {
+    href: "#",
+    imgUrl: require("../block2/Rectangle2.jpg"),
+    h3: "Women's tracksuit Q109",
+    price: "$ 30.00",
+    rating: "5",
+  },
+  {
+    href: "#",
+    imgUrl: require("../block2//Rectangle3.jpg"),
+    h3: "Women's tracksuit Q109",
+    price: "$ 30.00",
+    rating: "4",
+  },
+  {
+    href: "#",
+    imgUrl: require("../block2//Rectangle4.jpg"),
+    h3: "Women's tracksuit Q109",
+    price: "$ 30.00",
+    rating: "3",
+  },
+  {
+    href: "#",
+    imgUrl: require("../block2//Rectangle5.jpg"),
+    h3: "Women's tracksuit Q109",
+    price: "$ 30.00",
+    rating: "3",
+  },
+  {
+    href: "#",
+    imgUrl: require("../block2//Rectangle6.jpg"),
+    h3: "Women's tracksuit Q109",
+    price: "$ 30.00",
+    rating: "3",
+  },
+  {
+    href: "#",
+    imgUrl: require("../block2//Rectangle7.jpg"),
+    h3: "Women's tracksuit Q109",
+    price: "$ 30.00",
+    rating: "3",
+  },
+  {
+    href: "#",
+    imgUrl: require("../block2//Rectangle8.jpg"),
+    h3: "Women's tracksuit Q109",
+    price: "$ 30.00",
+    rating: "3",
+  },
+];
+const Women = function (props) {
+  return (
+    <div className="container ">
+      <Block2Component name="WOMEN’S" products={cards} />
+    </div>
+  );
+};
+export default Women;

@@ -1,0 +1,36 @@
+.wrap-news {
+    position: relative;
+}
+.wrap-news .wrap-text {
+    align-items: center;
+}
+
+.news {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrap-news p {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 13px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #121212;
+    opacity: 0.4;
+    margin: 0;
+    margin-bottom: 14px;
+}
+.wrap-news h3 {
+    font-weight: 600;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #121212;
+    margin: 0;
+}
