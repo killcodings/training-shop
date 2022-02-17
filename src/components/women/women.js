@@ -61,7 +61,10 @@ const cards = [
 ];
 const Women = function (props) {
   return (
-    <div className="container ">
+    <div
+      className="container products-page"
+      data-test-id={`products-page-${props.name}`}
+    >
       <Block2Component name="WOMEN’S" products={cards} />
     </div>
   );
