@@ -7,7 +7,7 @@ const Block2Component = function (props) {
   return (
     <div
       className="container block2 clothes"
-      data-test-id={`clothes${props.name}`}
+      data-test-id={`clothes-${props.name}`}
     >
       <CloseNavComponent name={props.name} />
 
