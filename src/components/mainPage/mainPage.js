@@ -41,116 +41,116 @@ const items2 = [
     span: "50% OFF",
   },
 ];
-const cards2 = [
+const cardsWomen = [
   {
-    href: "#",
+    href: "",
     imgUrl: require("../block2/Rectangle1.jpg"),
     h3: "Women's tracksuit Q109",
     price: "$ 30.00",
     rating: "5",
   },
   {
-    href: "#",
+    href: "",
     imgUrl: require("../block2/Rectangle2.jpg"),
     h3: "Women's tracksuit Q109",
     price: "$ 30.00",
     rating: "5",
   },
   {
-    href: "#",
+    href: "",
     imgUrl: require("../block2//Rectangle3.jpg"),
     h3: "Women's tracksuit Q109",
     price: "$ 30.00",
     rating: "4",
   },
   {
-    href: "#",
+    href: "",
     imgUrl: require("../block2//Rectangle4.jpg"),
     h3: "Women's tracksuit Q109",
     price: "$ 30.00",
     rating: "3",
   },
   {
-    href: "#",
+    href: "",
     imgUrl: require("../block2//Rectangle5.jpg"),
     h3: "Women's tracksuit Q109",
     price: "$ 30.00",
     rating: "3",
   },
   {
-    href: "#",
+    href: "",
     imgUrl: require("../block2//Rectangle6.jpg"),
     h3: "Women's tracksuit Q109",
     price: "$ 30.00",
     rating: "3",
   },
   {
-    href: "#",
+    href: "",
     imgUrl: require("../block2//Rectangle7.jpg"),
     h3: "Women's tracksuit Q109",
     price: "$ 30.00",
     rating: "3",
   },
   {
-    href: "#",
+    href: "",
     imgUrl: require("../block2//Rectangle8.jpg"),
     h3: "Women's tracksuit Q109",
     price: "$ 30.00",
     rating: "3",
   },
 ];
-const cards = [
+const cardsMen = [
   {
-    href: "#",
+    href: "",
     imgUrl: require("../block2/Rectangle1.jpg"),
     h3: "Women's tracksuit Q109",
     price: "$ 30.00",
     rating: "5",
   },
   {
-    href: "#",
+    href: "",
     imgUrl: require("../block2/Rectangle2.jpg"),
     h3: "Women's tracksuit Q109",
     price: "$ 30.00",
     rating: "5",
   },
   {
-    href: "#",
+    href: "",
     imgUrl: require("../block2//Rectangle3.jpg"),
     h3: "Women's tracksuit Q109",
     price: "$ 30.00",
     rating: "4",
   },
   {
-    href: "#",
+    href: "",
     imgUrl: require("../block2//Rectangle4.jpg"),
     h3: "Women's tracksuit Q109",
     price: "$ 30.00",
     rating: "3",
   },
   {
-    href: "#",
+    href: "",
     imgUrl: require("../block2//Rectangle5.jpg"),
     h3: "Women's tracksuit Q109",
     price: "$ 30.00",
     rating: "3",
   },
   {
-    href: "#",
+    href: "",
     imgUrl: require("../block2//Rectangle6.jpg"),
     h3: "Women's tracksuit Q109",
     price: "$ 30.00",
     rating: "3",
   },
   {
-    href: "#",
+    href: "",
     imgUrl: require("../block2//Rectangle7.jpg"),
     h3: "Women's tracksuit Q109",
     price: "$ 30.00",
     rating: "3",
   },
   {
-    href: "#",
+    href: "",
     imgUrl: require("../block2//Rectangle8.jpg"),
     h3: "Women's tracksuit Q109",
     price: "$ 30.00",
@@ -162,8 +162,8 @@ function MainPage() {
     <div className="site">
       <Block1Component />
       <Advantages advantageItem={advantageItem} />
-      <Block2Component name="women" products={cards} />
-      <Block2Component name="men" products={cards2} />
+      <Block2Component name="women" products={cardsWomen} />
+      <Block2Component name="men" products={cardsMen} />
       <div className="container block3">
         <NewsComponent items={items} />
         <NewsComponent items={items2} />

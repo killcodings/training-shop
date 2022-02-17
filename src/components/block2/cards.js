@@ -22,7 +22,7 @@ function Cards(props) {
   const listCards = cards.map((card, index) => (
     <Link
       key={index}
-      to={`${card.href}/${index}`}
+      to={`${card.href}/${index + 1}`}
       className="card"
       data-test-id={`clothes-card-${props.name}`}
     >
