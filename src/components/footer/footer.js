@@ -4,7 +4,7 @@ import React from "react";
 // import Menu from "./menu";
 // import BlockNavs from "./BlockNavs";
 import "./style.css";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 import TopFooter from "../footer/top-footer";
 import FooterMenu from "../footer/footer-menu";
 
