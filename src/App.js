@@ -1,7 +1,7 @@
 import "./App.css";
 import Header from "./components/header/header";
 import MainPage from "./components/mainPage/mainPage";
-import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Men from "./components/men/men";
 import Women from "./components/women's/women's";
 
