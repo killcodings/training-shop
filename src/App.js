@@ -3,7 +3,7 @@ import Header from "./components/header/header";
 import MainPage from "./components/mainPage/mainPage";
 import { HashRouter, Routes, Route } from "react-router-dom";
 import Men from "./components/men/men";
-import Women from "./components/women's/women's";
+import Women from "./components/women/women";
 
 function App() {
   return (
