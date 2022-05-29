@@ -70,3 +70,10 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
 
 ### `npm run start` - local start
+
+### `Interesting works`
+
+[https://stalisedev.github.io/training-shop/](https://stalisedev.github.io/training-shop/)
+[https://github.com/StaliseDev/training-shop/tree/main/src](https://github.com/StaliseDev/training-shop/tree/main/src)
+[https://github.com/ViachaslauVDmitruk/training-shop](https://github.com/ViachaslauVDmitruk/training-shop)
+[https://github.com/luckwillbealwaysCrochet/training-shop](https://github.com/luckwillbealwaysCrochet/training-shop)
