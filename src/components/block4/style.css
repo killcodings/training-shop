@@ -1,0 +1,114 @@
+
+.block4 {
+    margin-top: 90px;
+    background: linear-gradient(180deg, #F3F2F2 0%, #DCDBDB 100%);
+}
+
+.offer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.offer-item {
+    margin: 60px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 4px;
+    background-color: #fff;
+    padding: 80px 96px 96px 96px;
+    width: 27%;
+}
+
+.tag_p {
+    margin: 0;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 13px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #121212;
+    opacity: 0.4;
+    margin-bottom: 15px;
+}
+.offer .wrap-title {
+
+}
+
+.offer .title{
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #121212;
+    margin: 0;
+    margin-bottom: 30px;
+}
+
+.span-color {
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 36px;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #E91E63;
+}
+.wrap-form {
+    width: 100%;
+}
+.wrap-form .form {
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+}
+
+.offer .input-email {
+    width: 100%;
+    outline: none;
+    border: none;
+    background: #F8F8F8;
+    padding: 24px 0;
+    font-size: 14px;
+    text-align: center;
+    color: #646464;
+    margin-bottom: 25px;
+}
+
+.offer .input-submit {
+    width: 100%;
+    outline: none;
+    cursor: pointer;
+    padding: 24px 0;
+    color: #FFF;
+    font-family: "GothamPro", Arial, sans-serif;
+    transition: 300ms;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 18px;
+    opacity: 0.9;
+    background-color: #121212;
+    border: 2px solid #121212;
+}
+
+.offer .wrapper-img:nth-child(1) {
+    margin-right: -55px;
+    margin-bottom: -40px;
+    z-index: 1;
+}
+.offer .wrapper-img:nth-child(3) {
+    margin-left: -15px;
+    z-index: 1;
+}
