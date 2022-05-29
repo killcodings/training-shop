@@ -1,0 +1,103 @@
+.topLine {
+    padding: 6px 0;
+    background: #121212;
+}
+
+
+ul {
+    padding: 0;
+    margin: 0;
+}
+
+ul li {
+    color: #FFFFFF;
+    opacity: 0.8;
+    list-style: none;
+}
+li span {
+    font-weight: 500;
+    font-size: 11px;
+    line-height: 12px;
+}
+
+.topLine ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.topLine ul li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.topLine ul li:not(:last-child) {
+    margin-right: 30px;
+}
+.topLine ul li img {
+    margin-right: 8px;
+}
+
+.social-networks {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.social-networks a:not(:last-child) {
+    margin-right: 10px;
+}
+
+.bottomLine {
+    padding: 25px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-basis: 100%;
+}
+.menuWrap {
+    flex-basis:50%;
+}
+.main-menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-basis: 100%;
+}
+
+.main-menu li a {
+    font-size: 14px;
+    line-height: 16px;
+    color: #121212;
+    text-decoration: none;
+}
+
+.NavsWrap {
+}
+.lists-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lists-nav a {
+    text-decoration: none;
+}
+.lists-nav a:last-child {
+    position: relative;
+}
+.lists-nav a:last-child .count {
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    top: -3px;
+    right: -8px;
+    font-weight: bold;
+    font-size: 9px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.lists-nav a:not(:last-child) {
+    margin-right: 25px;
+}
